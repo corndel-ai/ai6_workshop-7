@@ -31,8 +31,6 @@ Every decision is logged to WandB. By the end of the session each learner has a 
 
 Learners need one thing: a WandB account and their API key. See `7w_prework.md` for the exact steps. Everything else runs in Codespaces.
 
-Coaches should read `coach_playbook.md` before the session, particularly the troubleshooting section.
-
 ---
 
 ## Running the notebook
