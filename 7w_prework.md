@@ -12,7 +12,7 @@ There is one new thing: create a WandB account and get your API key ready.
 
 WandB tracks every model you train. By the end of the session you will have a dashboard showing all your runs side by side.
 
-**Step 1.** Go to [wandb.ai](https://wandb.ai) and sign up. You can use your GitHub account to log in directly.
+**Step 1.** Go to [wandb.ai](https://wandb.ai) and sign up. You can use your GitHub account to log in directly. You can alternatively make up most details during signup (name, organisation, job title) as long as you use a real email address. When prompted to choose something to try first (Weave, Models, etc.), pick any option. You need to choose one before you can access Settings, where your API key is.
 
 **Step 2.** Once signed in, go to [wandb.ai/settings](https://wandb.ai/settings).
 
