@@ -106,7 +106,7 @@ print(f'PR AUC (trapezoidal): {pr_auc:.3f}')
 
 ## Running it on your model
 
-Open your notebook and add a cell after Section 6. You already have `y_prob`, `y_val`, `X_val_clean`, and `model_clean` in memory.
+Open your notebook and add a cell after Part 6. You already have `y_prob`, `y_val`, `X_val_clean`, and `model_clean` in memory.
 
 ```python
 from sklearn.metrics import average_precision_score, precision_recall_curve

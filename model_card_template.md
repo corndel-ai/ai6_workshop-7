@@ -33,24 +33,24 @@
 
 | | |
 |:--|:--|
-| **Dataset** | IBM HR Analytics (synthetic), 1,470 employees |
+| **Dataset** | IBM HR Analytics (fictional teaching dataset), 1,470 employees |
 | **Training set** | 1,176 rows |
-| **Test set** | 294 rows |
+| **Validation set** | 147 rows |
+| **Held-out test set** | 147 rows |
 | **Target** | Attrition (Yes/No) |
-| **Attrition rate** | ~15% |
+| **Attrition rate** | About 15% |
 
 **Features removed and why:**
 
 | Feature | Reason for removal |
 |:--|:--|
-| Age | Protected characteristic (Equality Act 2010) |
-| Gender | Protected characteristic (Equality Act 2010) |
-| MaritalStatus | Protected characteristic (Equality Act 2010) |
 | | |
 
 ---
 
 ## Performance
+
+Report the validation figures from the notebook, then the held-out figures from Part 10.
 
 | Metric | Value |
 |:--|:--|
@@ -58,8 +58,8 @@
 | F1 (attrition class) | |
 | Precision | |
 | Recall | |
-| False negatives | |
-| False positives | |
+| Missed (FN) | |
+| False alarms (FP) | |
 | Decision threshold | |
 
 **Why this threshold was chosen:**
@@ -78,16 +78,16 @@
 
 | Risk | Mitigation |
 |:--|:--|
-| Indirect discrimination via correlated features | Features reviewed against Equality Act; see feature removal above |
+| Indirect discrimination via correlated features | |
 | Model drift over time | |
-| False negatives (missed attrition) | |
-| False positives (unnecessary interventions) | |
+| Missed departures (false negatives) | |
+| Unnecessary interventions (false alarms) | |
 
 ---
 
 ## Ethical considerations
 
-**Who bears the false negative in this system:**
+**Who bears the cost of a missed departure in this system:**
 
 
 **What recourse do they have:**
