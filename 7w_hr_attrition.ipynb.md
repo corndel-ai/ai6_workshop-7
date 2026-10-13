@@ -1350,7 +1350,9 @@ Reflect on the following three questions and record your thoughts in the cell be
 
 **What comes next:**
 
-- **Beyond this workshop:** the deployment pipeline that this session scoped out, including containers, orchestration and monitoring, builds on the saved model and API you created here.
+- **Workshop 8, Drift-Resistant Feature Pipelines:** you build a feature pipeline for a delivery prediction model and inspect it for production readiness. You ask the question that closed this workshop's deployment gate, what would make you reopen the decision, about every feature: which inputs could drift, and what you would do when they do.
+- **Your work from today:** keep your notebook, model card and SHAP plots. The programme reuses the attrition work in Unit 8.
+- **Deployment tooling:** containers, CI/CD and monitoring for ML are covered in Unit 5. This session scoped them out, so use that unit if you want to take today's saved model and API further.
 
 **Action items:**
 
@@ -1363,4 +1365,4 @@ Reflect on the following three questions and record your thoughts in the cell be
 
 ---
 
-*Workshop 7 notebook, version 2.0 (draft for review). Written to FS-02 v2.5 and QS-01 v1.3. Last updated 12/10/2026.*
+*Workshop 7 notebook, version 2.0 (draft for review). Written to FS-02 v2.5 and QS-01 v1.3. Last updated 13/10/2026.*

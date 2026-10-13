@@ -57,7 +57,7 @@ The notebook ends with a three-question reflection and a summary.
 | `ibm_attrition.csv` | The dataset. Must sit next to the notebook. |
 | `model_card_template.md` | The blank model card. The notebook copies it to `model_card.md` in Part 9. |
 | `glossary.md` | Definitions for SHAP, DPIA, ROC AUC, the Equality Act and other terms. |
-| `7w_prework.md` | Pre-work instructions for learners. Send before the session. |
+| `7w_prework.md` | Optional pre-work for learners: setting up a W&B account. Send before the session. |
 | `going_further.md` | Extra reading and extension tasks for learners who finish early. |
 | `tutorial/7w_walkthrough.md` | A screenshot walkthrough of the whole notebook. |
 | `cheat_sheets/` | Two one-page visual summaries. |
